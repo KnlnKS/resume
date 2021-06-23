@@ -14,8 +14,10 @@ jobs:
           compiler: lualatex
           args: -interaction=nonstopmode -shell-escape
 
-      - name: Upload PDF
-        uses: actions/upload-artifact@v2
-        with:
-          name: PDF
-          path: main.pdf
+      - name: Commit Resume
+        run: |
+          git config --global user.name "knlnks/resume"
+          git config --global user.email "soulkks@hotmail.ca"
+          git add .
+          git commit -m '📝 Update Resume' || echo
+          git push
