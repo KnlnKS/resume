@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2021.6.6)  23 JUN 2021 23:39
+This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2021.6.6)  24 JUN 2021 00:00
  system commands enabled.
 **main.tex
 (./main.tex
@@ -841,15 +841,28 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 \Hy@SectionHShift=\skip81
 )
 luaotfload | db : Reload initiated (formats: otf,ttf,ttc); reason: File not foun
-d: "fonts/Roboto-Regular".
-luaotfload | aux : font no 53 (nil) defines no feature for script latn
-luaotfload | aux : font no 58 (nil) defines no feature for script latn)
+d: "fonts/ProductSans-Regular".
+luaotfload | aux : font no 54 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 55 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 56 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 57 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 60 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 61 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 62 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 63 (nil) does not define feature smcp for script latn
+ with language dflt)
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
 (Font)              scaled to size 10.95pt on input line 74.
-
-No file main.aux.
-
+ (./main.aux)
 \openout1 = main.aux
+
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
 LaTeX Font Info:    ... okay on input line 74.
 LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 74.
@@ -870,6 +883,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 74.
 LaTeX Font Info:    ... okay on input line 74.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 74.
 LaTeX Font Info:    ... okay on input line 74.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
 *geometry* verbose mode - [ preamble ] result:
@@ -997,6 +1011,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 74.
 LaTeX Info: Redefining \pageref on input line 74.
 LaTeX Info: Redefining \nameref on input line 74.
+ (./main.out) (./main.out)
 \@outlinefile=\write4
 
 \openout4 = main.out
@@ -1051,35 +1066,30 @@ Overfull \hbox (22.26791pt too wide) in alignment at lines 10--33
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 (./main.aux)
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 )
 
 Here is how much of LuaTeX's memory you used:
- 32773 strings out of 478108
+ 32768 strings out of 478108
  156364,1373583 words of node,token memory allocated
  641 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 7 attribute, 82 glue_spec,
  7 attribute_list, 2 write nodes
-   avail lists: 1:3,2:1927,3:723,4:598,5:2324,6:297,7:14667,8:30,9:1743,10:15,11
-:932
- 52056 multiletter control sequences out of 65536+600000
- 92 fonts using 26703111 bytes
+   avail lists: 1:2,2:1929,3:723,4:598,5:2385,6:297,7:14718,8:30,9:1743,10:15,11
+:938
+ 52036 multiletter control sequences out of 65536+600000
+ 94 fonts using 25968927 bytes
  116i,11n,115p,541b,479s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2021/texmf-dist/fonts/opentype/adobe/sourcesanspro/SourceSan
 sPro-Light.otf></usr/local/texlive/2021/texmf-dist/fonts/opentype/adobe/sourcesa
 nspro/SourceSansPro-Regular.otf></usr/local/texlive/2021/texmf-dist/fonts/openty
 pe/adobe/sourcesanspro/SourceSansPro-LightIt.otf></usr/local/texlive/2021/texmf-
-dist/fonts/opentype/adobe/sourcesanspro/SourceSansPro-Bold.otf><./fonts/Roboto-R
-egular.ttf></usr/local/texlive/2021/texmf-dist/fonts/opentype/public/fontawesome
-/FontAwesome.otf><./fonts/Roboto-Bold.ttf><./fonts/Roboto-Thin.ttf>
-Output written on main.pdf (1 page, 39444 bytes).
+dist/fonts/opentype/adobe/sourcesanspro/SourceSansPro-Bold.otf><./fonts/ProductS
+ans-Regular.ttf></usr/local/texlive/2021/texmf-dist/fonts/opentype/public/fontaw
+esome/FontAwesome.otf><./fonts/ProductSans-Bold.ttf><./fonts/ProductSans-Thin.tt
+f>
+Output written on main.pdf (1 page, 42834 bytes).
 
 PDF statistics: 80 PDF objects out of 1000 (max. 8388607)
  52 compressed objects within 1 object stream
