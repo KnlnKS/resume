@@ -19,5 +19,5 @@ jobs:
           git config --global user.name "knlnks/resume"
           git config --global user.email "soulkks@hotmail.ca"
           git add .
-          git commit -m '📝 Update Resume' || echo
+          git commit -m '📄🔨 Generate Resume' || echo
           git push
