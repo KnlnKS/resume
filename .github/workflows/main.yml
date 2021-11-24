@@ -11,6 +11,7 @@ jobs:
         uses: dante-ev/latex-action@latest
         with:
           root_file: resume.tex
+          compiler: pdflatex
           args: -interaction=nonstopmode -shell-escape
 
       - name: Commit Resume
