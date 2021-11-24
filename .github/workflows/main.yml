@@ -16,6 +16,7 @@ jobs:
 
       - name: Commit Resume
         run: |
+          mv resume.pdf Kunalan_Kevin_Subagaran_Resume.pdf
           git config --global user.name "knlnks/resume"
           git config --global user.email "soulkks@hotmail.ca"
           git add .
