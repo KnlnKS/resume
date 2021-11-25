@@ -11,11 +11,12 @@ jobs:
         uses: dante-ev/latex-action@latest
         with:
           root_file: resume.tex
-          compiler: lualatex
+          compiler: pdflatex
           args: -interaction=nonstopmode -shell-escape
 
       - name: Commit Resume
         run: |
+          mv resume.pdf Kunalan_Kevin_Subagaran_Resume.pdf
           git config --global user.name "knlnks/resume"
           git config --global user.email "soulkks@hotmail.ca"
           git add .
