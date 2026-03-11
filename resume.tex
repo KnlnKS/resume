@@ -72,19 +72,101 @@
 \begin{document}
 
 %----------HEADING----------
-\input{src/heading}
+\begin{center}
+	\textbf{\Huge \scshape Kunalan Kevin Subagaran} \\ \vspace{5pt}
+    \href{kunalan.k.subagaran@gmail.com}{\underline{kunalan.k.subagaran@gmail.com}} $|$
+	\href{https://www.linkedin.com/in/knlnks/}{\underline{linkedin.com/in/knlnks/}} $|$
+	\href{https://github.com/KnlnKS}{\underline{github.com/KnlnKS}}
+\end{center}
 
 %-----------SKILLS-----------
-\input{src/skills.tex}
+\section{Technical Skills}
+    \begin{itemize}[leftmargin=0.15in, label={}]
+	\small{\item{
+		\textbf{Languages}{: TypeScript/JavaScript, Go, Python, HTML/CSS, Java, Bash, C,  SQL, Rust} \\
+        \textbf{Frontend}{: React, Next.js, Tailwind, Svelte, ShadCN, Redux, Zustand} \\
+        \textbf{Backend}{: Node.js, Bun, Deno, Express.js, Flask, Gin, REST, GraphQL, gRPC, Websockets} \\
+        \textbf{Databases}{: PostgreSQL, MySQL, MongoDB, Redis, Kafka, DynamoDB, Clickhouse} \\
+        \textbf{Infrastructure}{: Docker, Kubernetes, Helm, Terraform, Pulumi, AWS, GCP, Vercel} \\
+	}}
+    \end{itemize}
 
 %-----------EXPERIENCE-----------
-\input{src/experience}
+\section{Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Retool}{July 2023 - Present}
+{Software Engineer}{San Francisco, CA}
+\resumeItemListStart
+    \resumeItem{Independently designed and shipped a new frontend metrics pipeline to replace Amplitude, processing \textbf{5M+ events/day} and enabling more flexible product iteration}
+    \resumeItem{Improved response times on core product routes from \textbf{2s to 200ms} by introducing caching, eliminating inefficient async patterns, and optimizing database queries}
+    \resumeItem{Led migration from Datadog to a self-hosted observability stack, saving \textbf{\$750K+} annually}
+    \resumeItem{Defined React Error Boundaries as a company-wide quality metric, resulting in a reduction of app crashes by \textbf{95\%}}
+    \resumeItem{Drove rollout and customizations for enterprise customers including Apple and NBCU representing \textbf{\$2.5M+ ARR}}
+    \resumeItem{Built a telemetry agent for on-prem deployments, granting proactive visibility into customer health, product usage, and support issues}
+    \resumeItem{Engineered an endpoint ownership system that routes pages to correct service owners, reducing on-call burden}
+\resumeItemListEnd
+
+\resumeSubheading
+{Snapchat}{May 2022 - August 2022}
+{Software Engineer Intern}{Toronto, ON}
+\resumeItemListStart
+    \resumeItem{Implemented hybrid encryption workflows on AWS and GCP to secure sensitive data for \textbf{100M+ users}}
+    \resumeItem{Built a microservice handling \textbf{1.7M+ requests/day} for model-training data processing, improving the quality of inputs used to train AR filters}
+\resumeItemListEnd
+
+\resumeSubheading
+{Bonsai}{Jan 2021 - August 2021}
+{Software Developer Intern}{Toronto, ON}
+\resumeItemListStart
+    \resumeItem{Engineered an external order-fulfillment system that processed over \textbf{\$1.6M} in volume within 2 months}
+    \resumeItem{Built partner-facing dashboard features in React, including search, filtering, exports, and product verification}
+    \resumeItem{Led migration of an embedded e-commerce widget from React to Preact, reducing bundle size and improving page load performance}
+    \resumeItem{Strengthened account security by implementing a password reset flow}
+    \resumeItem{Built shared UI components used across the product, including carousel and cart experiences}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
 
 %-----------PROJECTS-----------
-\input{src/projects}
+\section{Projects}
+\resumeSubHeadingListStart
+
+    \resumeProjectHeading
+    {\textbf{Jobby} $|$ \emph{Golang, PostgreSQL, SQL, Webhooks}}{}
+    \resumeItemListStart
+        \resumeItem{Built and launched a job search platform partnering with Simplify (YC Startup)}
+        \resumeItem{Drove traffic by operating the largest CS Discord, converting community usage into an uplift of \textbf{100K+ users}}
+    \resumeItemListEnd
+
+    \resumeProjectHeading
+    {\textbf{Resume Parser} $|$ \emph{React, Next.js, JavaScript, jQuery, HTML/CSS, Vercel, Redis}}{}
+    \resumeItemListStart
+        \resumeItem{Created a website with over \textbf{1.5M page views} helping job seekers identify parsing errors before applying}
+    \resumeItemListEnd
+
+    \resumeProjectHeading
+    {\textbf{Course Central} $|$ \emph{React, Next.js, TypeScript, Chakra-UI, Python, Selenium, MongoDB}}{}
+    \resumeItemListStart
+        \resumeItem{Built a full-stack platform combining historical grade distributions and RateMyProfessor data to support students}
+        \resumeItem{Created mobile companion app with forums enabling peer discovery and collaboration with \textbf{14K+ users}}
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
 
 %-----------EDUCATION-----------
-\input{src/education.tex}
+\section{Education}
+    \resumeSubHeadingListStart
+
+    \resumeSubheading
+    {Queen's University}{September 2019 - May 2023}
+    {Bachelor of Computing (Honours) in Software Design}{Kingston, ON}
+    \resumeItemListStart
+        \resumeItem{\textbf{Awards:} Ratehub.ca Award in Computing, Dean's Honour List × 4}
+    \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
 
 %-------------------------------------------
 \end{document}
